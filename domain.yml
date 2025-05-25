@@ -1,0 +1,44 @@
+version: "3.1"
+
+intents:
+  - intent_greet
+  - intent_goodbye
+  - intent_phishing
+  - intent_strong_password
+  - intent_antivirus
+  - intent_data_protection
+  - intent_mood_positive
+  - intent_mood_negative
+  - intent_affirm
+  - intent_deny
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm here to help you with cybersecurity information."
+
+  utter_mood_positive:
+    - text: "I'm glad you're feeling good! How can I assist you?"
+
+  utter_mood_negative:
+    - text: "Hey, chin up! A better day is ahead."
+
+  utter_affirm:
+    - text: "Great! Let me know if you have more questions."
+
+  utter_deny:
+    - text: "Got it. Let me know if anything changes."
+
+  utter_goodbye:
+    - text: "Goodbye! Stay safe online!"
+
+  utter_phishing:
+    - text: "Phishing is a type of fraud where someone tries to trick you into giving personal information. Don't click on suspicious links!"
+
+  utter_strong_password:
+    - text: "A strong password has at least 12 characters, uses upper/lowercase letters, numbers, and special symbols."
+
+  utter_antivirus:
+    - text: "An up-to-date antivirus helps detect and block malicious software."
+
+  utter_data_protection:
+    - text: "Avoid sharing personal info on public networks. Enable two-factor authentication."

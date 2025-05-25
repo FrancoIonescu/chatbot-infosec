@@ -1,0 +1,75 @@
+version: "3.1"
+
+nlu:
+- intent: intent_greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+    - Good day
+    - What's up?
+
+- intent: intent_affirm
+  examples: |
+    - yes
+    - correct
+    - exactly
+    - sure
+    - absolutely
+    - of course
+
+- intent: intent_deny
+  examples: |
+    - no
+    - not really
+    - wrong
+    - I don't think so
+    - I disagree
+    - never
+
+- intent: intent_mood_positive
+  examples: |
+    - I'm happy
+    - I'm feeling good
+    - I had a great day
+    - I feel great
+    - everything's perfect
+
+- intent: intent_mood_negative
+  examples: |
+    - I'm sad
+    - I'm feeling bad
+    - I had a bad day
+    - I feel down
+    - I'm not in the mood
+
+- intent: intent_goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - Have a nice day
+    - See you
+
+- intent: intent_phishing
+  examples: |
+    - What is phishing?
+    - How can I protect myself from phishing?
+    - What to do if I receive a suspicious email?
+
+- intent: intent_strong_password
+  examples: |
+    - How do I create a strong password?
+    - What makes a password secure?
+    - Tips for secure passwords?
+
+- intent: intent_antivirus
+  examples: |
+    - Do I need antivirus?
+    - What does antivirus do?
+    - Best antivirus recommendations?
+
+- intent: intent_data_protection
+  examples: |
+    - How can I protect my personal data online?
+    - Data protection tips?
+    - What is two-factor authentication?

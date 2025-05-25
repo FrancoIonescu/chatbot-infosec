@@ -1,0 +1,52 @@
+version: "3.1"
+
+rules:
+- rule: respond to greeting
+  steps:
+    - intent: intent_greet
+    - action: utter_greet
+
+- rule: respond to positive mood
+  steps:
+    - intent: intent_mood_positive
+    - action: utter_mood_positive
+
+- rule: respond to negative mood
+  steps:
+    - intent: intent_mood_negative
+    - action: utter_mood_negative
+
+- rule: respond to affirmation
+  steps:
+    - intent: intent_affirm
+    - action: utter_affirm
+
+- rule: respond to denial
+  steps:
+    - intent: intent_deny
+    - action: utter_deny
+
+- rule: respond to goodbye
+  steps:
+    - intent: intent_goodbye
+    - action: utter_goodbye
+
+- rule: explain phishing
+  steps:
+    - intent: intent_phishing
+    - action: utter_phishing
+
+- rule: explain strong password
+  steps:
+    - intent: intent_strong_password
+    - action: utter_strong_password
+
+- rule: explain antivirus
+  steps:
+    - intent: intent_antivirus
+    - action: utter_antivirus
+
+- rule: explain data protection
+  steps:
+    - intent: intent_data_protection
+    - action: utter_data_protection

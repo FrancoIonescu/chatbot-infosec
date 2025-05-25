@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+
+- story: positive path
+  steps:
+    - intent: intent_greet
+    - action: utter_greet
+    - intent: intent_mood_positive
+    - action: utter_mood_positive
+
+- story: negative path
+  steps:
+    - intent: intent_greet
+    - action: utter_greet
+    - intent: intent_mood_negative
+    - action: utter_mood_negative
