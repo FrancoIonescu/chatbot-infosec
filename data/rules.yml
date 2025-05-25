@@ -6,6 +6,11 @@ rules:
     - intent: intent_greet
     - action: utter_greet
 
+- rule: respond to thanks
+  steps:
+    - intent: intent_thank
+    - action: utter_thank
+
 - rule: respond to positive mood
   steps:
     - intent: intent_mood_positive

@@ -9,6 +9,34 @@ nlu:
     - Good day
     - What's up?
 
+- intent: intent_thank
+  examples: |
+    - thanks
+    - thank you
+    - many thanks
+    - thx
+    - appreciate it
+    - thanks a lot
+    - thanks for the help
+    - thank you very much
+    - I appreciate your help   
+
+- intent: intent_mood_positive
+  examples: |
+    - I'm happy
+    - I'm feeling good
+    - I had a great day
+    - I feel great
+    - everything's perfect
+
+- intent: intent_mood_negative
+  examples: |
+    - I'm sad
+    - I'm feeling bad
+    - I had a bad day
+    - I feel down
+    - I'm not in the mood    
+
 - intent: intent_affirm
   examples: |
     - yes
@@ -26,22 +54,6 @@ nlu:
     - I don't think so
     - I disagree
     - never
-
-- intent: intent_mood_positive
-  examples: |
-    - I'm happy
-    - I'm feeling good
-    - I had a great day
-    - I feel great
-    - everything's perfect
-
-- intent: intent_mood_negative
-  examples: |
-    - I'm sad
-    - I'm feeling bad
-    - I had a bad day
-    - I feel down
-    - I'm not in the mood
 
 - intent: intent_goodbye
   examples: |

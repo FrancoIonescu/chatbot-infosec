@@ -2,19 +2,23 @@ version: "3.1"
 
 intents:
   - intent_greet
+  - intent_thank
+  - intent_mood_positive
+  - intent_mood_negative
+  - intent_affirm
+  - intent_deny
   - intent_goodbye
   - intent_phishing
   - intent_strong_password
   - intent_antivirus
   - intent_data_protection
-  - intent_mood_positive
-  - intent_mood_negative
-  - intent_affirm
-  - intent_deny
 
 responses:
   utter_greet:
     - text: "Hello! I'm here to help you with cybersecurity information."
+
+  utter_thank:
+    - text: "You're welcome! Let me know if there's anything else I can help with."
 
   utter_mood_positive:
     - text: "I'm glad you're feeling good! How can I assist you?"
