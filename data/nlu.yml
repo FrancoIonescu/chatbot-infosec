@@ -62,26 +62,122 @@ nlu:
     - Have a nice day
     - See you
 
+- intent: intent_cybersec_career
+  examples: |
+    - How to pursue a career in cybersecurity
+    - I want a career in cybersecurity
+    - How can I be a cybersecurity analyst
+
+- intent: intent_security_principles
+  examples: |
+    - What are the security principles
+    - Explain to me the security principles
+    - Tell me some security principles 
+
+- intent: intent_governance_regulations
+  examples: | 
+    - What are governance and regulations
+    - Tell me about governance and regulations
+    - Explain the governance and regulations
+
+- intent: intent_cyber_kill_chain
+  examples: |
+    - What is the cyber kill chain
+    - Tell me about the cyber kill chain
+    - Explain the stages of cyber kill chain
+
+- intent: intent_linux_fundamentals
+  examples: | 
+    - Tell me the linux fundamentals
+    - What are the basic Linux fundamentals
+    - What are the core concepts of linux
+    
+- intent: intent_python_basics
+  examples: |
+    - What is python programming language
+    - Tell me the basics of python
+    - Is python a scripting language
+
+- intent: intent_common_attacks
+  examples: |
+    - Give me some common cyberattacks
+    - What are the most common attacks
+    - What kind of attacks does hackers prefer
+
+- intent: intent_networking
+  examples: |
+    - What is networking
+    - Define computer networking
+    - Explain the concept of networking
+
+- intent: intent_network_services
+  examples: |
+    - What are network services
+    - Define network services
+    - Explain different types of network services
+
+- intent: intent_http
+  examples: |
+    - What is HTTP
+    - Define HTTP
+    - Explain the HTTP protocol
+
+- intent: intent_dns
+  examples: |
+    - What is DNS
+    - Define DNS
+    - Explain the Domain Name System
+
 - intent: intent_phishing
   examples: |
-    - What is phishing?
-    - How can I protect myself from phishing?
-    - What to do if I receive a suspicious email?
+    - What is phishing
+    - How can I protect myself from phishing
+    - What to do if I receive a suspicious email
 
 - intent: intent_strong_password
   examples: |
-    - How do I create a strong password?
-    - What makes a password secure?
-    - Tips for secure passwords?
+    - How do I create a strong password
+    - What makes a password secure
+    - Tips for secure passwords
 
 - intent: intent_antivirus
   examples: |
-    - Do I need antivirus?
-    - What does antivirus do?
-    - Best antivirus recommendations?
+    - Do I need an antivirus
+    - What does antivirus do
+    - Best antivirus recommendations
 
 - intent: intent_data_protection
   examples: |
-    - How can I protect my personal data online?
-    - Data protection tips?
-    - What is two-factor authentication?
+    - How can I protect my personal data online
+    - Data protection tips
+    - What is two-factor authentication
+
+- intent: intent_hacking
+  examples: |
+    - What is hacking
+    - What are the different types of hacking attacks
+    - Explain common hacking techniques
+
+- intent: intent_multi_factor_authentication
+  examples: | 
+    - What is multi factor authentication
+    - Explain how MFA works
+    - What are the benefits of using multi factor authentication
+
+- intent: intent_firewall
+  examples: |
+    - What is a firewall
+    - Explain how firewall works
+    - What are the different types of firewalls
+
+- intent: intent_encryption
+  examples: |
+    - What is encryption
+    - Explain how encryption works
+    - What are the different types of encryption
+
+- intent: intent_decryption
+  examples: |
+    - What is decryption
+    - Explain how decryption works
+    - What are the different types of decryption

@@ -36,6 +36,61 @@ rules:
     - intent: intent_goodbye
     - action: utter_goodbye
 
+- rule: respond to career in cybersecurity
+  steps:
+    - intent: intent_cybersec_career
+    - action: utter_cybersec_career
+
+- rule: respond to security principles
+  steps:
+    - intent: intent_security_principles
+    - action: utter_security_principles
+
+- rule: respond to governance regulations
+  steps:
+    - intent: intent_governance_regulations
+    - action: utter_governance_regulations
+
+- rule: respond to cyber kill chain
+  steps:
+    - intent: intent_cyber_kill_chain
+    - action: utter_cyber_kill_chain
+
+- rule: respond to linux fundamentals
+  steps:
+    - intent: intent_linux_fundamentals
+    - action: utter_linux_fundamentals
+
+- rule: respond to python basics
+  steps:
+    - intent: intent_python_basics
+    - action: utter_python_basics
+
+- rule: respond to common attacks
+  steps:
+    - intent: intent_common_attacks
+    - action: utter_common_attacks
+
+- rule: respond to networking
+  steps:
+    - intent: intent_networking
+    - action: utter_networking
+
+- rule: respond to network services
+  steps:
+    - intent: intent_network_services
+    - action: utter_network_services
+
+- rule: respond to http
+  steps:
+    - intent: intent_http
+    - action: utter_http
+
+- rule: respond to dns
+  steps:
+    - intent: intent_dns
+    - action: utter_dns
+
 - rule: explain phishing
   steps:
     - intent: intent_phishing
@@ -55,3 +110,30 @@ rules:
   steps:
     - intent: intent_data_protection
     - action: utter_data_protection
+
+- rule: explain hacking
+  steps:
+    - intent: intent_hacking
+    - action: utter_hacking
+
+- rule: explain multi factor authentication
+  steps:
+    - intent: intent_multi_factor_authentication
+    - action: utter_multi_factor_authentication
+
+- rule: explain firewall
+  steps:
+    - intent: intent_firewall
+    - action: utter_firewall
+
+- rule: explain encryption
+  steps:
+    - intent: intent_encryption
+    - action: utter_encryption
+
+- rule: explain decryption
+  steps:
+    - intent: intent_decryption
+    - action: utter_decryption
+
+

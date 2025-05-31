@@ -1,0 +1,20 @@
+cybersec career
+security principles
+governance and regulations
+cyber kill chain
+linux fundamentals
+python basics
+common attacks
+networking
+network services
+http
+dns
+phishing
+strong password
+antivirus
+data_protection
+hacking
+multi-factor authentication
+firewall
+encryption
+decryption
