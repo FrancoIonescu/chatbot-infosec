@@ -36,6 +36,51 @@ rules:
     - intent: intent_goodbye
     - action: utter_goodbye
 
+- rule: respond to phishing
+  steps:
+    - intent: intent_phishing
+    - action: utter_phishing
+
+- rule: respond to strong password
+  steps:
+    - intent: intent_strong_password
+    - action: utter_strong_password
+
+- rule: respond to antivirus
+  steps:
+    - intent: intent_antivirus
+    - action: utter_antivirus
+
+- rule: respond to protection
+  steps:
+    - intent: intent_data_protection
+    - action: utter_data_protection
+
+- rule: respond to hacking
+  steps:
+    - intent: intent_hacking
+    - action: utter_hacking
+
+- rule: respond to multi factor authentication
+  steps:
+    - intent: intent_multi_factor_authentication
+    - action: utter_multi_factor_authentication
+
+- rule: respond to firewall
+  steps:
+    - intent: intent_firewall
+    - action: utter_firewall
+
+- rule: respond to encryption
+  steps:
+    - intent: intent_encryption
+    - action: utter_encryption
+
+- rule: respond to decryption
+  steps:
+    - intent: intent_decryption
+    - action: utter_decryption
+
 - rule: respond to career in cybersecurity
   steps:
     - intent: intent_cybersec_career
@@ -91,49 +136,312 @@ rules:
     - intent: intent_dns
     - action: utter_dns
 
-- rule: explain phishing
+- rule: respond to how websites work
   steps:
-    - intent: intent_phishing
-    - action: utter_phishing
+    - intent: intent_how_websites_work
+    - action: utter_how_websites_work
 
-- rule: explain strong password
+- rule: respond to junior security analyst
   steps:
-    - intent: intent_strong_password
-    - action: utter_strong_password
+    - intent: intent_jr_security_analyst
+    - action: utter_jr_security_analyst
 
-- rule: explain antivirus
+- rule: respond to DFIR
   steps:
-    - intent: intent_antivirus
-    - action: utter_antivirus
+    - intent: intent_dfir
+    - action: utter_dfir
 
-- rule: explain data protection
+- rule: respond to IR and IM
   steps:
-    - intent: intent_data_protection
-    - action: utter_data_protection
+    - intent: intent_ir_and_im
+    - action: utter_ir_and_im
 
-- rule: explain hacking
+- rule: respond to SIEM
   steps:
-    - intent: intent_hacking
-    - action: utter_hacking
+    - intent: intent_siem
+    - action: utter_siem
 
-- rule: explain multi factor authentication
+- rule: respond to Endpoint Security
   steps:
-    - intent: intent_multi_factor_authentication
-    - action: utter_multi_factor_authentication
+    - intent: intent_endpoint_security
+    - action: utter_endpoint_security
 
-- rule: explain firewall
+- rule: respond to detection engineering
   steps:
-    - intent: intent_firewall
-    - action: utter_firewall
+    - intent: intent_detection_engineering
+    - action: utter_detection_engineering
 
-- rule: explain encryption
+- rule: respond to traffic analysis
   steps:
-    - intent: intent_encryption
-    - action: utter_encryption
+    - intent: intent_traffic_analysis
+    - action: utter_traffic_analysis
 
-- rule: explain decryption
+- rule: respond to cyber threat intel
   steps:
-    - intent: intent_decryption
-    - action: utter_decryption
+    - intent: intent_cyber_threat_intel
+    - action: utter_cyber_threat_intel
 
+- rule: respond to threat intelligence tools
+  steps:
+    - intent: intent_threat_intelligence_tools
+    - action: utter_threat_intelligence_tools
 
+- rule: respond to phishing analysis
+  steps:
+    - intent: intent_phishing_analysis
+    - action: utter_phishing_analysis
+
+- rule: respond to pentesting fundamentals
+  steps:
+    - intent: intent_pentesting_fundamentals
+    - action: utter_pentesting_fundamentals
+
+- rule: respond to red team fundamentals
+  steps:
+    - intent: intent_red_team_fundamentals
+    - action: utter_red_team_fundamentals
+
+- rule: respond to red team engagements
+  steps:
+    - intent: intent_red_team_engagements
+    - action: utter_red_team_engagements
+
+- rule: respond to active reconnaissance
+  steps:
+    - intent: intent_active_reconnaissance
+    - action: utter_active_reconnaissance
+
+- rule: respond to passive reconnaissance
+  steps:
+    - intent: intent_passive_reconnaissance
+    - action: utter_passive_reconnaissance
+
+- rule: respond to nmap
+  steps:
+    - intent: intent_nmap
+    - action: utter_nmap
+
+- rule: respond to metasploit
+  steps:
+    - intent: intent_metasploit
+    - action: utter_metasploit
+
+- rule: respond to security engineer
+  steps:
+    - intent: intent_security_engineer
+    - action: utter_security_engineer
+
+- rule: respond to web app security
+  steps:
+    - intent: intent_web_app_security
+    - action: utter_web_app_security
+
+- rule: respond to sdlc
+  steps:
+    - intent: intent_sdlc
+    - action: utter_sdlc
+
+- rule: respond to containerisation
+  steps:
+    - intent: intent_containerisation
+    - action: utter_containerisation
+
+- rule: respond to docker
+  steps:
+    - intent: intent_docker
+    - action: utter_docker
+
+- rule: respond to pipeline automation
+  steps:
+    - intent: intent_pipeline_automation
+    - action: utter_pipeline_automation
+
+- rule: respond to active directory
+  steps:
+    - intent: intent_active_directory
+    - action: utter_active_directory
+
+- rule: respond to ssh
+  steps:
+    - intent: intent_ssh
+    - action: utter_ssh
+
+- rule: respond to soc
+  steps:
+    - intent: intent_soc
+    - action: utter_soc
+
+- rule: respond to cryptography
+  steps:
+    - intent: intent_cryptography
+    - action: utter_cryptography
+
+- rule: respond to sql
+  steps:
+    - intent: intent_sql
+    - action: utter_sql
+
+- rule: respond to pyramid of pain
+  steps:
+    - intent: intent_pyramid_of_pain
+    - action: utter_pyramid_of_pain
+
+- rule: respond to hydra
+  steps:
+    - intent: intent_hydra
+    - action: utter_hydra
+
+- rule: respond to wifi hacking
+  steps:
+    - intent: intent_wifi_hacking
+    - action: utter_wifi_hacking
+
+- rule: respond to offensive security
+  steps:
+    - intent: intent_offensive_security
+    - action: utter_offensive_security
+
+- rule: respond to defensive security
+  steps:
+    - intent: intent_defensive_security
+    - action: utter_defensive_security
+
+- rule: respond to malware
+  steps:
+    - intent: intent_malware
+    - action: utter_malware
+
+- rule: respond to enumeration
+  steps:
+    - intent: intent_enumeration
+    - action: utter_enumeration
+
+- rule: respond to brute force
+  steps:
+    - intent: intent_brute_force
+    - action: utter_brute_force
+
+- rule: respond to alert triage
+  steps:
+    - intent: intent_alert_triage
+    - action: utter_alert_triage
+
+- rule: respond to alert reporting
+  steps:
+    - intent: intent_alert_reporting
+    - action: utter_alert_reporting
+
+- rule: respond to lan
+  steps:
+    - intent: intent_lan
+    - action: utter_lan
+
+- rule: respond to wan
+  steps:
+    - intent: intent_wan
+    - action: utter_wan
+
+- rule: respond to osi model
+  steps:
+    - intent: intent_osi_model
+    - action: utter_osi_model
+
+- rule: respond to tcp/ip
+  steps:
+    - intent: intent_tcp_ip
+    - action: utter_tcp_ip
+
+- rule: respond to udp
+  steps:
+    - intent: intent_udp
+    - action: utter_udp
+
+- rule: respond to cloud
+  steps:
+    - intent: intent_cloud
+    - action: utter_cloud
+
+- rule: respond to packets and frames
+  steps:
+    - intent: intent_packets_frames
+    - action: utter_packets_frames
+
+- rule: respond to burp suite
+  steps:
+    - intent: intent_burp_suite
+    - action: utter_burp_suite
+
+- rule: respond to vulnerability management
+  steps:
+    - intent: intent_vulnerability_management
+    - action: utter_vulnerability_management
+
+- rule: respond to threat hunting
+  steps:
+    - intent: intent_threat_hunting
+    - action: utter_threat_hunting
+
+- rule: respond to vpn
+  steps:
+    - intent: intent_vpn
+    - action: utter_vpn
+
+- rule: respond to tls/ssl
+  steps:
+    - intent: intent_tls_ssl
+    - action: utter_tls_ssl
+
+- rule: respond to owasp
+  steps:
+    - intent: intent_owasp
+    - action: utter_owasp
+
+- rule: respond to database
+  steps:
+    - intent: intent_database
+    - action: utter_database
+
+- rule: respond to social engineering
+  steps:
+   - intent: intent_social_engineering
+   - action: utter_social_engineering
+
+- rule: respond to wireshark
+  steps:
+   - intent: intent_wireshark
+   - action: utter_wireshark
+
+- rule: respond to risk management
+  steps:
+   - intent: intent_risk_management
+   - action: utter_risk_management
+
+- rule: respond to security policies
+  steps:
+   - intent: intent_security_policies
+   - action: utter_security_policies
+
+- rule: respond to bcdr
+  steps:
+   - intent: intent_bcdr
+   - action: utter_bcdr
+
+- rule: respond to security awareness
+  steps:
+   - intent: intent_security_awareness
+   - action: utter_security_awareness
+
+- rule: respond to physical security
+  steps:
+   - intent: intent_physical_security
+   - action: utter_physical_security
+
+- rule: respond to threat modeling
+  steps:
+   - intent: intent_threat_modeling
+   - action: utter_threat_modeling
+
+- rule: respond to
+  steps:
+   - intent: intent_
+   - action: utter_

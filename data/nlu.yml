@@ -7,7 +7,8 @@ nlu:
     - Hi
     - Hey
     - Good day
-    - What's up?
+    - What's up
+    - How are you
 
 - intent: intent_thank
   examples: |
@@ -61,6 +62,60 @@ nlu:
     - Goodbye
     - Have a nice day
     - See you
+
+- intent: intent_phishing
+  examples: |
+    - What is phishing
+    - How can I protect myself from phishing
+    - What to do if I receive a suspicious email
+
+- intent: intent_strong_password
+  examples: |
+    - How do I create a strong password
+    - What makes a password secure
+    - Tips for secure passwords
+
+- intent: intent_antivirus
+  examples: |
+    - Do I need an antivirus
+    - What does antivirus do
+    - Best antivirus recommendations
+
+- intent: intent_data_protection
+  examples: |
+    - How can I protect my personal data online
+    - Data protection tips
+    - What is two-factor authentication
+
+- intent: intent_hacking
+  examples: |
+    - What is hacking
+    - What are the different types of hacking attacks
+    - Explain common hacking techniques
+
+- intent: intent_multi_factor_authentication
+  examples: | 
+    - What is multi factor authentication
+    - Explain how MFA works
+    - What are the benefits of using multi factor authentication
+
+- intent: intent_firewall
+  examples: |
+    - What is a firewall
+    - Explain how firewall works
+    - What are the different types of firewalls
+
+- intent: intent_encryption
+  examples: |
+    - What is encryption
+    - Explain how encryption works
+    - What are the different types of encryption
+
+- intent: intent_decryption
+  examples: |
+    - What is decryption
+    - Explain how decryption works
+    - What are the different types of decryption
 
 - intent: intent_cybersec_career
   examples: |
@@ -128,56 +183,379 @@ nlu:
     - Define DNS
     - Explain the Domain Name System
 
-- intent: intent_phishing
+- intent: intent_how_websites_work
   examples: |
-    - What is phishing
-    - How can I protect myself from phishing
-    - What to do if I receive a suspicious email
+    - How websites work
+    - What are the steps involved in accessing a webpage
+    - What is the purpose of a site
 
-- intent: intent_strong_password
+- intent: intent_jr_security_analyst
   examples: |
-    - How do I create a strong password
-    - What makes a password secure
-    - Tips for secure passwords
+    - What does a Junior Security Analyst do
+    - Tell me about the role of a Junior Security Analyst
+    - What are the responsibilities of a Jr Security Analyst
 
-- intent: intent_antivirus
+- intent: intent_dfir
   examples: |
-    - Do I need an antivirus
-    - What does antivirus do
-    - Best antivirus recommendations
+    - What is DFIR
+    - Explain Digital Forensics and Incident Response
+    - What does a DFIR team do
 
-- intent: intent_data_protection
+- intent: intent_ir_and_im
   examples: |
-    - How can I protect my personal data online
-    - Data protection tips
-    - What is two-factor authentication
+    - What's the difference between IR and IM (ir and im)
+    - Can you explain Incident Response and Incident Management
+    - What are the steps in incident response
 
-- intent: intent_hacking
+- intent: intent_siem
   examples: |
-    - What is hacking
-    - What are the different types of hacking attacks
-    - Explain common hacking techniques
+    - What is a SIEM system
+    - How does SIEM help in cybersecurity
+    - Give examples of SIEM tools
 
-- intent: intent_multi_factor_authentication
-  examples: | 
-    - What is multi factor authentication
-    - Explain how MFA works
-    - What are the benefits of using multi factor authentication
-
-- intent: intent_firewall
+- intent: intent_endpoint_security
   examples: |
-    - What is a firewall
-    - Explain how firewall works
-    - What are the different types of firewalls
+    - What is endpoint security
+    - How do you protect endpoints in a network
+    - What are endpoint protection tools
 
-- intent: intent_encryption
+- intent: intent_detection_engineering
   examples: |
-    - What is encryption
-    - Explain how encryption works
-    - What are the different types of encryption
+    - What is detection engineering
+    - Explain detection engineering in cybersecurity
+    - Tell me about detection engineering
 
-- intent: intent_decryption
+- intent: intent_traffic_analysis
   examples: |
-    - What is decryption
-    - Explain how decryption works
-    - What are the different types of decryption
+    - What is traffic analysis
+    - Explain traffic analysis
+    - How is network traffic analyzed
+
+- intent: intent_cyber_threat_intel
+  examples: |
+    - What is cyber threat intelligence
+    - Explain CTI
+    - How does threat intel work
+
+- intent: intent_threat_intelligence_tools
+  examples: |
+    - What are threat intelligence tools
+    - Give examples of CTI tools
+    - What is MISP used for
+
+- intent: intent_phishing_analysis
+  examples: |
+    - What is phishing analysis
+    - How do you analyze a phishing email
+    - What tools are used for phishing detection
+
+- intent: intent_pentesting_fundamentals
+  examples: |
+    - What is penetration testing
+    - Explain pentesting fundamentals
+    - How does a penetration test work
+
+- intent: intent_red_team_fundamentals
+  examples: |
+    - What is red teaming
+    - Explain red team fundamentals
+    - What does a red team do
+
+- intent: intent_red_team_engagements
+  examples: |
+    - What are red team engagements
+    - Explain a red team engagement
+    - How does a red team assessment work
+
+- intent: intent_active_reconnaissance
+  examples: |
+    - What is active reconnaissance
+    - Explain active recon
+    - What tools are used for active reconnaissance
+
+- intent: intent_passive_reconnaissance
+  examples: |
+    - What is passive reconnaissance
+    - Explain passive recon
+    - What is OSINT
+
+- intent: intent_nmap
+  examples: |
+    - What is Nmap
+    - How does Nmap work
+    - What can Nmap detect
+    - Explain Nmap in cybersecurity
+
+- intent: intent_metasploit
+  examples: |
+    - What is Metasploit
+    - How is Metasploit used
+    - What does Metasploit do
+    - Explain Metasploit framework
+
+- intent: intent_security_engineer
+  examples: |
+    - Tell me about a security engineer
+    - What does a security engineer do
+    - Role of a security engineer
+
+- intent: intent_web_app_security
+  examples: |
+    - What is web application security
+    - Explain web app security
+    - How to secure web applications
+
+- intent: intent_sdlc
+  examples: |
+    - What is SDLC
+    - Explain software development lifecycle
+    - SDLC phases
+
+- intent: intent_containerisation
+  examples: |
+    - What is containerisation
+    - Explain containerisation in cybersecurity
+    - Benefits of containers
+
+- intent: intent_docker
+  examples: |
+    - What is Docker
+    - Explain Docker platform
+    - How does Docker work
+
+- intent: intent_pipeline_automation
+  examples: |
+    - What is pipeline automation
+    - Explain CI/CD pipelines
+    - DevOps automation
+
+- intent: intent_active_directory
+  examples: |
+    - What is Active Directory
+    - Explain Active Directory service
+    - How does AD work
+
+- intent: intent_ssh
+  examples: |
+    - What is SSH
+    - Explain Secure Shell
+    - Tell me about ssh protocol
+    - How does SSH work
+    - Use of ssh in cybersecurity
+    - What is secure shell used for
+
+- intent: intent_soc
+  examples: |
+    - What is a SOC
+    - Explain Security Operations Center
+    - What does a SOC team do
+
+- intent: intent_cryptography
+  examples: |
+    - What is cryptography
+    - Explain cryptographic methods
+    - I want to learn about cryptography
+
+- intent: intent_sql
+  examples: |
+    - What is SQL
+    - Explain SQL language
+    - Tell me about SQL and databases
+
+- intent: intent_pyramid_of_pain
+  examples: |
+    - What is the Pyramid of Pain
+    - Explain pyramid of pain in cybersecurity
+    - Tell me about David Bianco’s model
+
+- intent: intent_hydra
+  examples: |
+    - What is Hydra tool
+    - Tell me about Hydra in hacking
+    - Explain password cracking with Hydra
+
+- intent: intent_wifi_hacking
+  examples: |
+    - What is WiFi hacking
+    - How do attackers hack WiFi
+    - Tools used in WiFi penetration testing
+
+- intent: intent_offensive_security
+  examples: |
+    - tell me about offensive security
+    - what is offensive security
+    - explain offensive security
+
+- intent: intent_defensive_security
+  examples: |
+    - what is defensive security
+    - describe defensive security
+    - defensive security explanation
+
+- intent: intent_malware
+  examples: |
+    - what is malware
+    - explain malware
+    - describe malware
+
+- intent: intent_enumeration
+  examples: |
+    - explain enumeration
+    - what is enumeration in security
+    - describe enumeration
+
+- intent: intent_brute_force
+  examples: |
+    - what is brute force
+    - explain brute force attack
+    - describe brute force
+
+- intent: intent_alert_triage
+  examples: |
+    - explain alert triage
+    - what is alert triage
+    - how does alert triage work
+
+- intent: intent_alert_reporting
+  examples: |
+    - explain alert reporting
+    - what is alert reporting
+    - describe alert reporting
+
+- intent: intent_lan
+  examples: |
+    - What is LAN
+    - Explain local area network
+    - Tell me about LAN networks
+
+- intent: intent_wan
+  examples: |
+    - What is WAN
+    - Explain wide area network
+    - Tell me about WAN connections
+
+- intent: intent_osi_model
+  examples: |
+    - What is the OSI model
+    - Explain the seven layers of OSI
+    - Describe OSI networking model
+
+- intent: intent_tcp_ip
+  examples: |
+    - What is TCP/IP
+    - Explain TCP IP model
+    - Describe TCP/IP protocol stack
+
+- intent: intent_udp
+  examples: |
+    - What is UDP
+    - Explain User Datagram Protocol
+    - Describe UDP protocol
+
+- intent: intent_cloud
+  examples: |
+    - What is cloud computing
+    - Explain cloud services
+    - Tell me about cloud models
+
+- intent: intent_packets_frames
+  examples: |
+    - What are packets and frames
+    - Explain data packets and network frames
+    - Difference between packets and frames
+
+- intent: intent_burp_suite
+  examples: |
+    - What is Burp Suite
+    - Explain Burp Suite tool
+    - Tell me about Burp Suite usage
+
+- intent: intent_vulnerability_management
+  examples: |
+    - What is vulnerability management
+    - Explain vulnerability management process
+    - Tell me about vulnerability management
+
+- intent: intent_threat_hunting
+  examples: |
+    - What is threat hunting
+    - Explain threat hunting
+    - Tell me about threat hunting process
+
+- intent: intent_vpn
+  examples: |
+    - What is a VPN
+    - Explain VPN technology
+    - Tell me about VPN usage
+
+- intent: intent_tls_ssl
+  examples: |
+    - What is TLS/SSL
+    - Explain TLS and SSL protocols
+    - Tell me about TLS/SSL security
+
+- intent: intent_owasp
+  examples: |
+    - What is OWASP
+    - Explain OWASP project
+    - Tell me about OWASP Top Ten
+
+- intent: intent_database
+  examples: |
+    - What is a database
+    - Explain database systems
+    - Tell me about databases
+
+- intent: intent_social_engineering
+  examples: |
+    - What is social engineering
+    - Explain social engineering
+    - Tell me about social engineering
+
+- intent: intent_wireshark
+  examples: |
+    - What is Wireshark
+    - Tell me about Wireshark
+    - How does Wireshark work
+
+- intent: intent_risk_management
+  examples: |
+    - What is risk management
+    - Explain cybersecurity risk management
+    - How does risk management work
+
+- intent: intent_security_policies
+  examples: |
+    - What are security policies and procedures
+    - Tell me about information security policies
+    - Explain organizational security policies
+
+- intent: intent_bcdr
+  examples: |
+    - What is business continuity and disaster recovery
+    - Tell me about BCDR
+    - Explain BCDR planning
+
+- intent: intent_security_awareness
+  examples: |
+    - What is security awareness
+    - Explain cybersecurity awareness
+    - Why is security awareness important
+
+- intent: intent_physical_security
+  examples: |
+    - What is physical security
+    - Explain physical security measures
+    - How do you secure physical infrastructure
+
+- intent: intent_threat_modeling
+  examples: |
+    - What is threat modeling
+    - Tell me about threat modeling
+    - What is the purpose of threat modeling
+
+- intent: intent_
+  examples: |
+    -
+    -
+    -

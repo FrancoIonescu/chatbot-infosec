@@ -1,3 +1,12 @@
+phishing
+strong password
+antivirus
+data_protection
+hacking
+multi-factor authentication
+firewall
+encryption
+decryption
 cybersec career
 security principles
 governance and regulations
@@ -9,12 +18,93 @@ networking
 network services
 http
 dns
-phishing
-strong password
-antivirus
-data_protection
-hacking
-multi-factor authentication
-firewall
-encryption
-decryption
+how websites work
+jr security analyst
+digital forensics and incident response
+ir and im
+siem
+endpoint security
+detection engineering
+traffic analysis
+cyber threat intel
+threat intelligence tools
+phishing analysis
+pentesting fundamentals
+red team fundamentals
+red team engagements
+active reconnaissance
+nmap
+metasploit
+security engineer
+web app security
+sdlc
+containerisation
+docker
+pipeline automation
+active directory
+ssh
+soc
+cryptography
+sql
+pyramid of pain
+hydra
+wifi hacking
+offensive security
+defensive security
+malware
+enumeration
+brute force
+alert triage
+alert reporting
+lan
+wan
+osi model
+tcp
+udp
+cloud
+packets and frames
+burp suite
+vulnerability management
+threat hunting
+vpn
+tls/ssl
+owasp
+database
+social engineering
+wireshark
+risk management
+security policies
+business continuity and disaster recovery
+security awareness
+physical security
+threat modeling
+cloud security
+iot security
+mobile security
+application security
+api security
+memory forensics
+reverse engineering
+endpoint detection and response
+security orchestration, automation, and response
+devsecops
+zero trust architecture
+deception technologies
+attack surface management
+osint
+supply chain security
+gdpr
+hipaa
+nist frameworks
+iso 27001
+payment card industry data security standard
+auditing security
+snort/suricata
+yara rules
+nessus/openvas
+kali linux
+powerShell for security
+git for security
+splunk/elk stack
+soft skills for cybersecurity
+infosec certifications
