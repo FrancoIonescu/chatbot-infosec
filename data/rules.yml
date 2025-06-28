@@ -441,7 +441,142 @@ rules:
    - intent: intent_threat_modeling
    - action: utter_threat_modeling
 
-- rule: respond to
+- rule: respond to cloud security
   steps:
-   - intent: intent_
-   - action: utter_
+  - intent: intent_cloud_security
+  - action: utter_cloud_security
+
+- rule: respond to iot security
+  steps:
+  - intent: intent_iot_security
+  - action: utter_iot_security
+
+- rule: respond to mobile security
+  steps:
+  - intent: intent_mobile_security
+  - action: utter_mobile_security
+
+- rule: respond to application security
+  steps:
+  - intent: intent_application_security
+  - action: utter_application_security
+
+- rule: respond to api security
+  steps:
+  - intent: intent_api_security
+  - action: utter_api_security
+
+- rule: respond to memory forensics
+  steps:
+  - intent: intent_memory_forensics
+  - action: utter_memory_forensics
+
+- rule: respond to reverse engineering
+  steps:
+  - intent: intent_reverse_engineering
+  - action: utter_reverse_engineering
+
+- rule: respond to endpoint detection and response
+  steps:
+  - intent: intent_endpoint_detection_response
+  - action: utter_endpoint_detection_response
+
+- rule: respond to soar
+  steps:
+  - intent: intent_soar
+  - action: utter_soar
+
+- rule: respond to devsecops
+  steps:
+  - intent: intent_devsecops
+  - action: utter_devsecops
+
+- rule: respond to zero trust architecture
+  steps:
+   - intent: intent_zero_trust_architecture
+   - action: utter_zero_trust_architecture
+
+- rule: respond to deception technologies
+  steps:
+   - intent: intent_deception_technologies
+   - action: utter_deception_technologies
+
+- rule: respond to attack surface management
+  steps:
+   - intent: intent_attack_surface_management
+   - action: utter_attack_surface_management
+
+- rule: respond to osint
+  steps:
+   - intent: intent_osint
+   - action: utter_osint
+
+- rule: respond to supply chain security
+  steps:
+   - intent: intent_supply_chain_security
+   - action: utter_supply_chain_security
+
+- rule: respond to gdpr
+  steps:
+   - intent: intent_gdpr
+   - action: utter_gdpr
+
+- rule: respond to nist frameworks
+  steps:
+   - intent: intent_nist_frameworks
+   - action: utter_nist_frameworks
+
+- rule: respond to iso 27001
+  steps:
+   - intent: intent_iso_27001
+   - action: utter_iso_27001
+
+- rule: respond to auditing security
+  steps:
+   - intent: intent_auditing_security
+   - action: utter_auditing_security
+
+- rule: respond to pci dss
+  steps:
+   - intent: intent_pci_dss
+   - action: utter_pci_dss
+
+- rule: respond to snort suricata
+  steps:
+   - intent: intent_snort_suricata
+   - action: utter_snort_suricata
+
+- rule: respond to yara rules
+  steps:
+   - intent: intent_yara_rules
+   - action: utter_yara_rules
+
+- rule: respond to nessus openvas
+  steps:
+   - intent: intent_nessus_openvas
+   - action: utter_nessus_openvas
+
+- rule: respond to kali linux
+  steps:
+   - intent: intent_kali_linux
+   - action: utter_kali_linux
+
+- rule: respond to git for security
+  steps:
+   - intent: intent_git_for_security
+   - action: utter_git_for_security
+
+- rule: respond to splunk elk stack
+  steps:
+    - intent: intent_splunk_elk_stack
+    - action: utter_splunk_elk_stack
+
+- rule: respond to soft skills cybersecurity
+  steps:
+    - intent: intent_soft_skills_cybersecurity
+    - action: utter_soft_skills_cybersecurity
+
+- rule: respond to infosec certifications
+  steps:
+    - intent: intent_infosec_certifications
+    - action: utter_infosec_certifications

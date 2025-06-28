@@ -94,7 +94,6 @@ attack surface management
 osint
 supply chain security
 gdpr
-hipaa
 nist frameworks
 iso 27001
 payment card industry data security standard
@@ -103,7 +102,6 @@ snort/suricata
 yara rules
 nessus/openvas
 kali linux
-powerShell for security
 git for security
 splunk/elk stack
 soft skills for cybersecurity

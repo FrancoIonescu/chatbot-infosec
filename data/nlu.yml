@@ -554,8 +554,170 @@ nlu:
     - Tell me about threat modeling
     - What is the purpose of threat modeling
 
-- intent: intent_
+- intent: intent_cloud_security
   examples: |
-    -
-    -
-    -
+    - What is cloud security
+    - Explain cloud security
+    - Tell me about cloud security
+
+- intent: intent_iot_security
+  examples: |
+    - What is IoT security
+    - Explain IoT security challenges
+    - How to secure IoT devices
+
+- intent: intent_mobile_security
+  examples: |
+    - What is mobile security
+    - Explain mobile security threats
+    - How to protect mobile devices
+
+- intent: intent_application_security
+  examples: |
+    - What is application security
+    - Explain application security techniques
+    - How to secure software applications
+
+- intent: intent_api_security
+  examples: |
+    - What is API security
+    - Explain API security best practices
+    - How to secure APIs
+
+- intent: intent_memory_forensics
+  examples: |
+    - What is memory forensics
+    - Explain memory forensics
+    - How does memory forensics work
+
+- intent: intent_reverse_engineering
+  examples: |
+    - What is reverse engineering
+    - Explain reverse engineering in cybersecurity
+    - How to reverse engineer malware
+
+- intent: intent_endpoint_detection_response
+  examples: |
+    - What is endpoint detection and response
+    - Explain EDR technology
+    - How does endpoint detection work
+
+- intent: intent_soar
+  examples: |
+    - What is SOAR in cybersecurity
+    - Explain security orchestration automation and response
+    - How does SOAR improve security
+
+- intent: intent_devsecops
+  examples: |
+    - What is DevSecOps
+    - Explain DevSecOps practices
+    - How to integrate security in DevOps
+
+- intent: intent_zero_trust_architecture
+  examples: |
+    - What is Zero Trust Architecture
+    - Explain Zero Trust
+    - How does Zero Trust work
+
+- intent: intent_deception_technologies
+  examples: |
+    - What are deception technologies
+    - Explain cyber deception
+    - How does deception in cybersecurity work
+
+- intent: intent_attack_surface_management
+  examples: |
+    - What is attack surface management
+    - Explain ASM in cybersecurity
+    - How to manage attack surface
+
+- intent: intent_osint
+  examples: |
+    - What is OSINT
+    - Explain open source intelligence
+    - OSINT tools and examples
+
+- intent: intent_supply_chain_security
+  examples: |
+    - What is supply chain security
+    - Explain supply chain cyber risks
+    - How attackers target the supply chain
+
+- intent: intent_gdpr
+  examples: |
+    - What is GDPR
+    - Explain GDPR
+    - What does GDPR regulate
+
+- intent: intent_nist_frameworks
+  examples: |
+    - What is the NIST Cybersecurity Framework
+    - Explain NIST CSF
+    - What are the NIST core functions
+
+- intent: intent_iso_27001
+  examples: |
+    - What is ISO 27001
+    - Explain ISO 27001
+    - ISO 27001 certification
+
+- intent: intent_auditing_security
+  examples: |
+    - What is a security audit
+    - Explain security auditing
+    - Security audit process
+
+- intent: intent_pci_dss
+  examples: |
+    - What is PCI DSS
+    - Explain PCI compliance
+    - Explain payment card industry data security standard
+
+- intent: intent_snort_suricata
+  examples: |
+    - What is Snort
+    - Explain Suricata IDS
+    - Differences between Snort and Suricata
+
+- intent: intent_yara_rules
+  examples: |
+    - What are YARA rules
+    - How to write YARA rules
+    - YARA for malware detection
+
+- intent: intent_nessus_openvas
+  examples: |
+    - What is Nessus scanner
+    - Explain OpenVAS features
+    - Nessus vs OpenVAS
+
+- intent: intent_kali_linux
+  examples: |
+    - What is Kali Linux
+    - Kali Linux tools for hacking
+    - Penetration testing with Kali
+
+- intent: intent_git_for_security
+  examples: |
+    - How to use Git securely
+    - Git for secure development
+    - Protect code in Git repositories
+
+- intent: intent_splunk_elk_stack
+  examples: |
+    - What is Splunk
+    - Explain ELK Stack components
+    - Splunk vs ELK for security
+
+- intent: intent_soft_skills_cybersecurity
+  examples: |
+    - Importance of soft skills in cybersecurity
+    - Communication skills for security teams
+    - Critical thinking in cybersecurity
+
+- intent: intent_infosec_certifications
+  examples: |
+    - What are popular infosec certifications
+    - Explain CISSP certification
+    - CEH for ethical hacking

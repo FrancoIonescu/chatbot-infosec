@@ -22,5 +22,14 @@ def send_message():
             bot_response = responses[0].get("text", "")
     return jsonify({"response": bot_response})
 
+@app.route("/topics")
+def get_topics():
+    try:
+        with open("topics.txt", encoding="utf-8") as f:
+            topics = [line.strip() for line in f if line.strip()]
+        return jsonify({"topics": topics})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == "__main__":
     app.run(debug=True)
